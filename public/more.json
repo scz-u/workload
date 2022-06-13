@@ -1,0 +1,74 @@
+{
+  "code": "200",
+  "msg": "success",
+  "data": {
+    "workFlowDef": {
+      "type": 2
+    },
+    "tableId": 1,
+    "flowPermission": [],
+    "nodeConfig": {
+      "nodeName": "填报对象",
+      "type": 0,
+      "priorityLevel": "",
+      "conditionList": [],
+      "nodeUserList": [],
+      "childNode": {
+        "nodeName": "路由",
+        "type": 4,
+        "priorityLevel": 1,
+        "conditionList": [],
+        "nodeUserList": [],
+        "conditionNodes": [
+          {
+            "nodeName": "条件1",
+            "type": 3,
+            "priorityLevel": 1,
+            "conditionList": [
+              {
+                "columnId": 0,
+                "type": 1
+              }
+            ],
+            "nodeUserList": [
+              {
+                "targetId": 85,
+                "type": 1,
+                "name": "天旭"
+              }
+            ],
+            "childNode": {
+              "nodeName": "审核人",
+              "type": 1,
+              "priorityLevel": 1,
+              "conditionList": [],
+              "nodeUserList": [
+                {
+                  "targetId": 2515744,
+                  "type": 1,
+                  "name": "哈哈哈哈"
+                }
+              ],
+              "childNode": null,
+              "conditionNodes": [],
+              "error": false
+            },
+            "conditionNodes": [],
+            "error": false
+          },
+          {
+            "nodeName": "条件2",
+            "type": 3,
+            "priorityLevel": 2,
+            "conditionList": [],
+            "nodeUserList": [],
+            "childNode": null,
+            "conditionNodes": [],
+            "error": false
+          }
+        ]
+      },
+      "conditionNodes": []
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "code": "200",
+  "msg": "success",
+  "data": {
+    "tableId": 1,
+    "workFlowVersionId": "",
+    "workFlowDef": {
+      "type": 1
+    },
+    "flowPermission": [],
+    "nodeConfig": {
+      "nodeName": "填报对象",
+      "type": 0,
+      "conditionList": [],
+      "nodeUserList": [],
+      "childNode": {
+        "nodeName": "审核人",
+        "error": true,
+        "type": 1,
+        "childNode": null,
+        "nodeUserList": []
+      },
+      "conditionNodes": []
+    }
+  }
+}
